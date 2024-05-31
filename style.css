@@ -65,14 +65,16 @@ ul{
     font-weight: 600;
 }
 ul a{
+    padding: 0.5rem;
     color: var(--dark-text);
+    /* border: 1px solid transparent; */
 }
 ul a:hover{
     background-color: #504c4855;
-    padding: 0.5rem;
     transform: scale(1.05);
     transition: all 0.5s ease;
     border-radius: 0.8rem;
+    /* border: 1px solid black; */
 }
 
 .hero-text{
